@@ -1,6 +1,8 @@
 # AI - Project Akhir
 
-Judul : <strong>Diagnosa Penyakit Diabetes</strong>
+Judul :
+<strong>Voice Assistant</strong>
+<strong>Diagnosa Penyakit Diabetes</strong>
 
 Nama Kelompok :
 * M. Bagus Setiawan 171111014
