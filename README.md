@@ -1,7 +1,6 @@
 # AI - Project Akhir
 
 Judul :<br>
-<strong>Voice Assistant</strong><br>
 <strong>Diagnosa Penyakit Diabetes</strong>
 
 Nama Kelompok :
