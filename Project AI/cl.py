@@ -19,12 +19,6 @@ y = df["Class"]
 #clf = SVC(gamma='auto')
 clf = tree.DecisionTreeClassifier()
 #clf = neighbors.KNeighborsClassifier(3, p=2, metric="minkowski")
-# clf.fit(x,y)
-
-# y_pred = clf.predict(x)
-# print("Akurasi", accuracy_score(y, y_pred))
-# # show columns
-# print("Hasil prediksi", clf.predict([[8,155,85,33,0,34,0.445,47]]))
 
 X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.33, random_state=42, shuffle=True)
 
