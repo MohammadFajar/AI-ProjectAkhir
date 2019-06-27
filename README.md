@@ -3,7 +3,7 @@
 Judul :<br>
 <strong>Diagnosa Penyakit Diabetes</strong>
 
-Nama Kelompok :
+### Nama Kelompok :
 * M. Bagus Setiawan 171111014
 * Mohammad Fajar    171111055
 

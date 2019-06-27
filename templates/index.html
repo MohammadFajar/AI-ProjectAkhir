@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Careers &mdash; Website Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom-bs.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.fancybox.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-select.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/icomoon/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/line-icons/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">    
+  </head>
+  <body id="top">
+
+
+<div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+    
+    <!-- HOME -->
+    <section class="home-section section-hero overlay bg-image" style="background-image: url('{{ url_for('static', filename='images/hero_1.jpg') }}'); " id="home-section">
+
+      <div class="container" >
+        <div class="row align-items-top justify-content-top">
+          <div class="col-md-12">
+            <div class="mb-5 text-center">
+              <h1 class="text-white font-weight-bold">Diagnosa Diabetes</h1>
+              <p>memprediksi penyakit diabetes</p>
+			  
+            </div>
+            <form method="post" class="search-jobs-form" action="{{url_for('prediksi')}}">
+              <div class="row mb-5">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+					<label>Banyak Kehamilan</label>
+                  <input type="text" name="hamil" class="form-control form-control-lg" >
+                </div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+					<label>Gula Darah</label>
+                  <input type="text" name="gula_darah" class="form-control form-control-lg" >
+                </div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+					<label>Tekanan Darah</label>
+                  <input type="text" name ="tekanan_darah" class="form-control form-control-lg">
+                </div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+					<label>Ketebalan Kulit</label>
+                  <input type="text" name="tebal_kulit" class="form-control form-control-lg">
+                </div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+					<label>Insulin</label>
+                  <input type="text" name = "insulin" class="form-control form-control-lg">
+                </div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+					<label>Berat Badan</label>
+                  <input type="text" name="berat" class="form-control form-control-lg">
+                </div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+					<label>Frekuensi Silsilah Diabetes</label>
+                  <input type="text" name ="silsilah" class="form-control form-control-lg">
+                </div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+					<label>Umur</label>
+                  <input type="text" name ="umur" class="form-control form-control-lg">
+                </div>
+                
+                 <div class="center-block">
+                  <button type="submit" name ="cek" class="btn btn-primary btn-lg btn-block text-white btn-search center-block"><span class="icon-search icon mr-2"></span>CEK</button>
+                </div>
+                
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <h2 class="text-white">Hasil</h2>
+            <p class="mb-0 text-white lead">  hasil={{ hasil }}</p>
+          </div>>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCRIPTS -->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/stickyfill.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.fancybox.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>  
+    <script src="{{ url_for('static', filename='js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.animateNumber.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+
+     
+  </body>
+</html>
