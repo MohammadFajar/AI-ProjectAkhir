@@ -1,7 +1,7 @@
 # AI - Project Akhir
 
 Judul :<br>
-<strong>Diagnosa Penyakit Diabetes </strong>
+<strong>Diagnosa Penyakit Diabetes</strong>
 
 ### Nama Kelompok :
 * M. Bagus Setiawan 171111014
@@ -9,5 +9,3 @@ Judul :<br>
 
 Referensi :
 * Dataset : https://www.kaggle.com/kumargh/pimaindiansdiabetescsv
-
-Metode Classifier : Decision Tree
